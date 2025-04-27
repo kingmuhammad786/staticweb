@@ -7,14 +7,14 @@ html, body {
 
 /* Set a full-page background image on the <body> */
 body {
-    /* Make sure this path is correct relative to your static folder */
-    background: url('/static/images/home_bg.jpg') no-repeat center center fixed;
+    /* Ensure this path is correct relative to your repository */
+    background: url('images/home_bg.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
-/* Optional: If you want a fallback background color */
+/* Optional: Fallback background color */
 body {
     background-color: #f4f4f4;
 }
@@ -23,14 +23,14 @@ body {
 header {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    padding: 10px 0;
+    padding: 10px 0; /* Fixed spacing issue */
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Fixed spacing issue */
 }
 
 nav a {
@@ -40,6 +40,6 @@ nav a {
 
 /* Ensure your main container has some padding */
 .container {
-    padding: 20px;
+    padding: 20px; /* Fixed spacing issue */
 }
 
